@@ -15,4 +15,39 @@ padding:0px;
 font-size:14pt;
 border:solid 0.5 px cyan;
 z-index:1;
+
+}
+form[name="var2"]
+{
+    background-color:Cyan;
+    max-width:500px;
+    padding:16px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: black;
+}
+form[name="var3"]
+{
+    background-color:Cyan;
+    max-width:500px;
+    padding:16px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: black;
+}
+form[name="cm"]
+{
+    background-color:Cyan;
+    max-width:500px;
+    padding:16px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: black;
+}
+form[name="form"]
+{
+    background-color:yellowgreen;
+    max-width:500px;
+    padding:16px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: black;
+    border-style:dotted dashed solid double;
+
 }
