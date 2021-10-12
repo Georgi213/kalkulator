@@ -62,7 +62,7 @@
 <input type="button" onclick="inputValutaText()"    value="OK">
     <div id="vastus3">Siia tuleb vastus...</div>
 </form>
-<h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex Calculator</h3>
+<h1>Body mass index Calculator</h1>
 <form name="form" class="form" id="form" onsubmit="return validateForm()">
     <div class="row-one">
         <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Age</p>
@@ -84,7 +84,7 @@
 
 
 </form>
-<h1>Sentimeeter</h1>
+<h1>Santimeeter kalkulatoor</h1>
 <form name="cm">
     <label for="resenie">Sisesta </label>
     <input type="number" name="resenie" id="resenie">
@@ -101,6 +101,25 @@
 
 
     </select>
+</form>
+<h1>Meter</h1>
+<form name="m">
+    <label for="resenie2">Sisesta </label>
+    <input type="number2" name="resenie2" id="resenie2">
+    <label for="resenie2">m = </label>
+    <select name="dlina2" onchange="perevodm(event)">
+
+        <option value=""></option>
+        <option value="kilo2">Kilomeetr</option>
+        <option value="metr2">Meetr</option>
+        <option value="deci2">Decimeetr</option>
+        <option value="canti2">Santimeetr</option>
+        <option value="mili2">Milimeetr</option>
+        <option value="nano2">Nanomeetr</option>
+
+
+    </select>
+    <div id="otvet2">Vastus</div>
 
 </form>
 <div id="otvet"></div>
