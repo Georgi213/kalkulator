@@ -23,7 +23,8 @@ form[name="var2"]
     max-width:500px;
     padding:16px;
     border-radius: 20px 10px 20px 10px;
-    border-color: black;
+    border-color: green;
+    border-style: solid;
 }
 form[name="var3"]
 {
@@ -31,15 +32,17 @@ form[name="var3"]
     max-width:500px;
     padding:16px;
     border-radius: 20px 10px 20px 10px;
-    border-color: black;
+    border-color: rgb(7, 115, 204);
+    border-style:dashed;
 }
 form[name="cm"]
 {
     background-color:Cyan;
     max-width:500px;
     padding:16px;
-    border-radius: 20px 10px 20px 10px;
-    border-color: black;
+    border-width: 5px;
+    border-color: purple;
+    border-style:double;
 }
 form[name="form"]
 {
@@ -50,4 +53,13 @@ form[name="form"]
     border-color: black;
     border-style:dotted dashed solid double;
 
+}
+form[name="m"]
+{
+    background-color:palegreen;
+    max-width:500px;
+    padding:16px;
+    border-width: 5px;
+    border-color: yellow;
+    border-style:groove;
 }
