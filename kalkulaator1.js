@@ -1,4 +1,3 @@
-                                                        
  var vastus=document.getElementById("vastus");
 var kogus=document.getElementById("kogus");
 var vastus2=document.getElementById("vastus2");
@@ -12,6 +11,8 @@ var female = document.getElementById("f");
 var form = document.getElementById("form");
 var resenie=document.getElementById("resenie");
 var otvet=document.getElementById("otvet");
+var resenie2=document.getElementById("resenie2");
+var otvet2=document.getElementById("otvet2");
 const dollar=1.16;
 const kroon=10.65;
 const rub=84.20;
@@ -24,6 +25,14 @@ const milli=100;
 const mikron=10000;
 const nano=10000000;
 const ang=100000000;
+const kilo2=0.001;
+const metr2=1;
+const deci2=10;
+const santi2=100;
+const milli2=1000;
+const mikron2=1000000;
+const nano2=1000000000;
+const ang2=10000000000;
 //korrutab
 
 function radioChange(event){
@@ -110,7 +119,29 @@ function perevodsm(event){
         otvet.innerHTML=calculate(inputValue, ang) + " A";
     }
 
-}                                                                          
+}
+function perevodm(event){
+    var inputValue=resenie2.value;
+    if(event.target.value === "kilo2") {
+        otvet2.innerHTML = calculate2(inputValue, kilo2) + " km";
+    } else if(event.target.value === "metr2"){
+        otvet2.innerHTML=calculate2(inputValue, metr2) + " m";
+    } else if(event.target.value === "deci2"){
+        otvet2.innerHTML=calculate2(inputValue, deci2) + " dm";
+    } else if(event.target.value === "canti2"){
+        otvet2.innerHTML=calculate2(inputValue, santi2) + " cm";
+    } else if(event.target.value === "mili2"){
+        otvet2.innerHTML=calculate2(inputValue, milli2) + " mm";
+    } else if(event.target.value === "mikron2"){
+        otvet2.innerHTML=calculate2(inputValue, mikron2) + " mkm";
+    } else if(event.target.value === "nano2"){
+        otvet2.innerHTML=calculate2(inputValue, nano2) + " nm";
+    } else if(event.target.value === "ang2"){
+        otvet2.innerHTML=calculate2(inputValue, ang2) + " A";
+    }
+
+}                                                       
+                                                                     
                                                                            
                                                                            
                                                                            
